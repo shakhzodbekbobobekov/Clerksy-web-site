@@ -127,11 +127,9 @@ body{
 /* /Header-hero */
 
 /* Header-Cinema */
-/* .header-cinema {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
+.header-cinema {
+   margin-top: 130px;
+}
 
 .header-cinema__section-first {
     display: flex;
@@ -147,6 +145,8 @@ body{
 }
 
 .header-cinema__section-first__about {
+    margin: 0;
+    padding: 0;
     margin-left: 100px;
 }
 
@@ -156,20 +156,30 @@ body{
     font-size: 48px;
     font-weight: 600;
     color: #163A24;
+    margin: 0;
+    padding: 0;
 }
 
 .header-cinema__section-first__about__text,
 .header-cinema__section-second__about__text {
     color: #163A24;
+    padding: 0;
+    margin: 0;
+    margin-top: 27px;
 }
 
 .header-cinema__section-second {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 13px;
 }
 
 .header-cinema__section-second__about {
+    margin: 0;
+    padding: 0;
     margin-right: 100px;
 }
 /* /Header-Cinema */
