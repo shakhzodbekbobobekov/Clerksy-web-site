@@ -343,12 +343,13 @@ body{
     justify-content: center;
     align-items: center;
     margin-top: 180px;
+    margin-bottom: 100px;
 }
 
 .person-works__about {
     margin: 0;
     padding: 0;
-    margin-right: 320px;
+    margin-right: 220px;
 }
 
 .person-works__about__title {
@@ -368,5 +369,9 @@ body{
     text-align: left;
 }
 /* /Person works */
+
+/*  About Section */
+
+/*  /About Section */
 /* MAIN */
 
