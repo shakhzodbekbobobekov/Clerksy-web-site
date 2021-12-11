@@ -185,4 +185,60 @@ body{
 /* /Header-Cinema */
 /* /HEADER */
 
+/* MAIN */
+/* Internet serves */
+.main-internet-serves {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-internet-serves-title {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 54px;
+    color: #163A24;
+    padding: 0;
+    margin: 0;
+    margin-top: 110px;
+    margin-bottom: 65px;
+}
+
+.main-internet-serves-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main-internet-serves-item {
+    list-style: none;
+}
+
+.main-internet-serves-items-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-internet-serves-items:not(:last-child) {
+    margin-right: 85px;
+}
+
+.main-internet-serves-items-link:hover {
+    opacity: 0.8;
+}
+
+.main-internet-serves-items-link:active {
+    opacity: 0.6;
+}
+/* Internet serves */
+
+/* Serves */
+.serves-item {
+    display: flex;    
+}
+/* /Serves */
+/* MAIN */
 
