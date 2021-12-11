@@ -456,7 +456,60 @@ body{
     padding: 0;
     margin-top: 15px;
 }
-
 /*  /About Section */
+
+/* Mons course */
+.mons-course {
+    background-color: #F2EFE6;
+    text-align: center;
+}
+
+.mons-course__title {
+    color: rgba(22, 58, 36, 1);
+    font-size: 47px;
+    line-height: 54px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    padding-top: 115px;
+    padding-bottom: 26px;
+}
+
+.mons-course__text{
+    color: rgba(22, 58, 36, 1);
+    margin: 0;
+    padding: 0;
+    padding-bottom: 25px;
+}
+
+.mons-course__section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mons-course__section__time:not(:last-child) {
+    margin-right: 20px;
+}
+
+.mons-course__section__time:not(:first-child) {
+    margin-left: 20px;
+}
+
+.mons-course__section__time__text {
+    padding: 0;
+    margin: 0;
+    color: #163A24;
+}
+
+.mons-course__section__time__title {
+    font-size: 28px;
+    
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+    padding-top: 15px;
+}
+/* /Mons course */
 /* MAIN */
 
